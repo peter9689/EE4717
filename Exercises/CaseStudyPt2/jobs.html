@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JavaJam Coffee House</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="javajam.css">
+</head>
+<body>
+<div id="wrapper">
+	<header>
+		 <img src="javajamlogo.gif" width="725" height="125" alt="JavaJam Coffee House">
+		 <!-- Image Source: https://www2.bc.edu/daniel-hlawitschka/index.html -->
+	</header>
+	<div id="leftcolumn">
+		<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="music.html">Music</a></li>
+			<li><a href="jobs.html">Jobs</a></li>
+		</ul>
+		</nav>
+	</div>
+	<div id="rightcolumn">
+		<div class="content">
+			<p id="title">Jobs at JavaJam</p>
+			<p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk * </p>
+			<form id="jobform" action="show_post.php" method="post">
+  			<label for="myName">*Name:</label>
+  			<input type="text" name="myName" id="myname">
+  			<label for="email">*E-mail:</label>
+  			<input type="text" name="email" id="email">
+  			<label for="startDate">Start Date:</label>
+			  <input type="date" name="startDate" id="startDate">
+			  <label for="experience">*Experience:</label>
+			  <textarea name="experience" id="experience" rows="5" cols="45"></textarea>
+			  <input type="submit" id="submit" value="Apply Now">
+			</form>
+		</div>
+	</div>
+	<footer>
+		Copyright &copy; 2017 JavaJam Coffee House<br>
+		<a href="mailto:Yizhou@Liu.com">Yizhou@Liu.com</a>
+	</footer>
+</div>
+</body>
+</html>

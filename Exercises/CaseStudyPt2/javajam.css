@@ -1,0 +1,88 @@
+body { font-family: Verdana, Arial, sans-serif;
+		 background-color: #E9E3A9;
+		 background-image: url(background.png);
+		 /*Image Source: https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwim7uil2P7VAhUDLI8KHf-LD8MQjRwIBw&url=http%3A%2F%2Fwww.cotton-fabrics.net%2Fbeige-cotton-fabrics%2Fc1.html&psig=AFQjCNFMo0cCQ2q5y_I-PvZQ-BBIzlTgnA&ust=1504173067650697*/
+}
+header { background-color: #CCAA66;
+			 text-align: center;
+			 padding: 10px 10px 10px 10px;
+}
+footer { font-size: 70%;
+			 font-style: italic;
+			 text-align: center;
+			 background-color: #CCAA66;
+			 padding: 20px 0 20px 0;
+}
+footer a { color: #552E00;}
+
+nav ul { list-style-type: none; }
+nav a { color: #552E00;
+			font-weight: bold;
+			text-decoration: none;
+}
+nav a:link {color: #875A2D;}
+nav a:hover {color: #4C2B00;}
+nav a:visited {color: #C79059;}
+
+table { margin: auto; 
+		border: 5px solid #F5F5D9; 
+		width: 600px; 
+}
+td, th {padding: 5px; 
+		border-style: none;
+}
+tr:nth-of-type(odd) { background-color: #CCAA66;
+		color: #552E00;
+}
+audio { padding-top: 30px; 
+
+}
+#title {font-weight: bold;
+		font-size: 150%;
+		margin-top: 0;
+		color: #552E00;
+}
+#wrapper { background-color: #D9C099;
+			 	 width: 90%;
+				 margin: auto;
+				 min-width: 850px;
+				 box-shadow: 5px 5px 5px #302510;
+}
+#leftcolumn { float: left;
+						width: 150px;
+}
+#rightcolumn { margin-left: 155px;
+				background-color: #F5F5D9;
+				color: #552E00;
+}
+#floatleft { margin: 10px;
+					 float: left;
+}
+.content { height: auto;
+				 padding: 20px 20px 20px 20px;
+}
+.highlight { margin-left: 350px;
+}
+.highlight ul { list-style-image: url(bulletpoint.gif);
+							padding-left: 15px;
+}
+.highlight li { padding-top: 3px;
+}
+#music td, th { text-align: left;
+								vertical-align: top;
+}
+#music td { height: auto;
+	padding: 10px 10px 10px 40px;
+}
+#jobform label {
+  float: left;
+  clear: left;
+  display: block;
+  width: 120px;
+  text-align: right;
+  padding-right: 40px;
+}
+#jobform input, select, textarea {
+  display: block;
+  margin-bottom: 20px
+}
