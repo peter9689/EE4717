@@ -4,6 +4,7 @@
 	<title>JavaJam Coffee House</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="javajam.css">
+	<link rel="icon" href="javajam.ico">
 </head>
 <body>
 <div id="wrapper">
@@ -26,15 +27,15 @@
 			<p id="title">Jobs at JavaJam</p>
 			<p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk * </p>
 			<form id="jobform" action="show_post.php" method="post">
-  			<label for="myName">*Name:</label>
-  			<input type="text" name="myName" id="myname">
-  			<label for="email">*E-mail:</label>
-  			<input type="text" name="email" id="email">
-  			<label for="startDate">Start Date:</label>
-			  <input type="date" name="startDate" id="startDate">
-			  <label for="experience">*Experience:</label>
-			  <textarea name="experience" id="experience" rows="5" cols="45"></textarea>
-			  <input type="submit" id="submit" value="Apply Now">
+				<label for="myName">*Name:</label>
+				<input type="text" name="myName" id="myname" required>
+				<label for="email">*E-mail:</label>
+				<input type="email" name="email" id="email" required>
+				<label for="startDate">Start Date:</label>
+				<input type="date" name="startDate" id="startDate">
+				<label for="experience">*Experience:</label>
+				<textarea name="experience" id="experience" rows="5" cols="45" required></textarea>
+				<input type="submit" id="submit" value="Apply Now">
 			</form>
 		</div>
 	</div>

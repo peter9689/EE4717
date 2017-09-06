@@ -24,12 +24,20 @@ nav a:link {color: #875A2D;}
 nav a:hover {color: #4C2B00;}
 nav a:visited {color: #C79059;}
 
-table { margin: auto; 
+table { 
+		margin: auto; 
 		border: 5px solid #F5F5D9; 
 		width: 600px; 
 }
-td, th {padding: 5px; 
-		border-style: none;
+#menu th {
+	padding: 5px; 
+	border-style: none;
+	vertical-align: middle;
+	text-align: center;
+}
+#menu td {
+	padding: 5px; 
+	border-style: none;
 }
 tr:nth-of-type(odd) { background-color: #CCAA66;
 		color: #552E00;
