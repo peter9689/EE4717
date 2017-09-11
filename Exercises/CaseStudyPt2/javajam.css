@@ -84,13 +84,11 @@ audio { padding-top: 30px;
 }
 #jobform label {
   float: left;
-  clear: left;
-  display: block;
   width: 120px;
   text-align: right;
   padding-right: 40px;
 }
-#jobform input, select, textarea {
+#jobform input, textarea {
   display: block;
   margin-bottom: 20px
 }
